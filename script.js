@@ -28,7 +28,7 @@ function paintPixels(event) {
 pixelBoard.addEventListener('click', paintPixels);
 
 function clearPixels() {
-  for(let index = 0; index < pixel.length; index += 1) {
+  for (let index = 0; index < pixel.length; index += 1) {
     pixel[index].removeAttribute('style');
   }
 }
