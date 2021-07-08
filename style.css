@@ -1,0 +1,27 @@
+#color-palette {
+    border: solid 1px black;
+    width: 220px;
+}
+
+.color {
+    display: inline-block;
+    border: solid 1px black;
+    height: 50px;
+    width: 50px;
+}
+
+.color:nth-child(1) {
+    background-color: black;
+}
+
+.color:nth-child(2) {
+    background-color: orange;
+}
+
+.color:nth-child(3) {
+    background-color: yellow;
+}
+
+.color:nth-child(4) {
+    background-color: red;
+}
