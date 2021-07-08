@@ -25,3 +25,14 @@
 .color:nth-child(4) {
     background-color: red;
 }
+
+#pixel-board {
+    display:grid;
+    border: 2px solid blue;
+}
+
+.pixel {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
