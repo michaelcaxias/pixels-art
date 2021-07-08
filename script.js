@@ -7,7 +7,7 @@ const pixelBoard = document.querySelector('#pixel-board');
 const button = document.querySelector('#clear-board');
 const pixel = document.querySelectorAll('.pixel');
 
-/* -----Requisito 1----- */
+/* -----Requisito 7----- */
 
 function changeColorSelected(event) {
   const selectedColor = event.target;
