@@ -2,7 +2,7 @@ const black = document.getElementById('black');
 const orange = document.getElementById('orange');
 const yellow = document.getElementById('yellow');
 const red = document.getElementById('red');
-const defaultColor = document.querySelector('.selected');
+let defaultColor = document.querySelector('.selected');
 
 function changeColorSelected(event) {
   const selectedColor = event.target;
@@ -10,6 +10,7 @@ function changeColorSelected(event) {
     defaultColor.classList.remove('selected');
     selectedColor.classList.add('selected');
   }
+  defaultColor = selectedColor;
 }
 
 black.addEventListener('click', changeColorSelected);
