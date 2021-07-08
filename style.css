@@ -28,10 +28,8 @@
 
 #pixel-board {
   display: grid;
-  background-color: aqua;
   grid-template-columns: repeat(5, auto);
   width: 210px;
-  padding: 10px; 
 }
 
 .pixel {

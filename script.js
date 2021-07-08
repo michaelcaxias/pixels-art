@@ -3,8 +3,9 @@ const orange = document.getElementById('orange');
 const yellow = document.getElementById('yellow');
 const red = document.getElementById('red');
 let defaultColor = document.querySelector('.selected');
-let pixel = document.querySelector('.pixel');
-let pixelBoard = document.querySelector('#pixel-board');
+const pixelBoard = document.querySelector('#pixel-board');
+const button = document.querySelector('#clear-board');
+const pixel = document.querySelectorAll('.pixel');
 
 function changeColorSelected(event) {
   const selectedColor = event.target;
@@ -21,7 +22,14 @@ yellow.addEventListener('click', changeColorSelected);
 red.addEventListener('click', changeColorSelected);
 
 function paintPixels(event) {
-  let click = event.target;
+  const click = event.target;
   click.style.backgroundColor = defaultColor.id;
 }
 pixelBoard.addEventListener('click', paintPixels);
+
+function clearPixels() {
+  for(let index = 0; index < pixel.length; index += 1) {
+    pixel[index].removeAttribute('style');
+  }
+}
+button.addEventListener('click', clearPixels);
