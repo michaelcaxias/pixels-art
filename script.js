@@ -30,6 +30,7 @@ function paintPixels(event) {
   click.style.backgroundColor = defaultColor.id;
 }
 pixelBoard.addEventListener('click', paintPixels);
+
 /* -----Requisito 9----- */
 function clearPixels() {
   for (let index = 0; index < pixel.length; index += 1) {

@@ -15,27 +15,30 @@ main {
   background-color: rgba(255, 255, 255, 0.404);
   backdrop-filter: blur(5px);
   box-shadow: 1px 1px 10px black;
-  text-shadow: 1px 1px 1px rgb(255, 0, 0);
+  text-shadow: 1px 2px 1px rgb(255, 255, 255);
   border-radius: 20px;
   padding: 10px;
   margin: 10% 40%;
   width: 20%;
   text-align: center;
   font-family: serif;
+  position: fixed;
 }
 
 .color {
   display: inline-block;
   border-radius: 50%;
+  border: 1px solid black;
   height: 50px;
   width: 50px;
 }
+
 .color:hover {
   display: inline-block;
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  border: 1px solid blue;
+  box-shadow: 1px 1px 10px rgb(71, 255, 47);
 }
 
 #black {
@@ -51,7 +54,7 @@ main {
 }
 
 #red {
-  background-color: red;
+  background-color: rgb(255,0,0);
 }
 
 #pixel-board {
@@ -64,9 +67,11 @@ main {
 .pixel {
   width: 40px;
   height: 40px;
-  border: 1px solid black;
+  border: 0.5px solid rgb(170, 170, 170);
   background-color: white;
 }
 
-/* Display Grid consultado em https://developer.mozilla.org/pt-BR/docs/Web/CSS/grid-template-columns#fromHistory
-"repeat" consultado em  https://developer.mozilla.org/en-US/docs/Web/CSS/repeat()#fromHistory */
+/* Display Grid consultado em https://developer.mozilla.org/pt-BR/docs/Web/CSS/
+grid-template-columns#fromHistory
+"repeat" consultado em  https://developer.mozilla.org/en-US/docs/Web/CSS/repeat()
+#fromHistory */
