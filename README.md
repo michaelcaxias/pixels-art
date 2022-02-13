@@ -4,15 +4,16 @@
 
 Projeto feito utilizando HTML, CSS e Javascript em 08 de julho de 2021 durante o curso da Trybe.
 
+## ⭐ Habilidades
+
+- Treinar as habilidades de programação com Javascript, HTML e CSS.
+
 ## 🔧 Funçoes
 
-### Função 01:
-- Poder criar desenhos feitos com pixels.
+- Poder criar desenhos feitos com pixels
+- Escolher cores e poder limpar todo o quadro
 
-### Função 02:
-- Treinar as habilidades de programação com Javascript.
-
-## Como iniciar
+## 💻 Como iniciar
 
 1. Faça o clone do projeto
 2. Entre no Visual Studio Code
